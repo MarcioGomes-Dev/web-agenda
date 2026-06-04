@@ -1,18 +1,16 @@
 import { CommonModule } from '@angular/common';
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { Navbar } from '../../shared/navbar/navbar';
 import { Sidebar } from '../../shared/sidebar/sidebar';
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'app-tarefa-cadastro',
   imports: [
     CommonModule,
     Navbar,
     Sidebar
   ],
-  templateUrl: './dashboard.html',
-  styleUrl: './dashboard.css',
+  templateUrl: './tarefa-cadastro.html',
+  styleUrl: './tarefa-cadastro.css',
 })
-export class Dashboard {
-
-}
+export class TarefaCadastro {}
